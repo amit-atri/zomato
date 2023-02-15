@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 10px;
+    margin-left: 130px;
+    
+}
+.left{
+
+    display: flex;
+    margin-top: 30px;
+    color: white;
+}
+.right ul{
+    display: flex;
+    position: absolute;
+    left: 800px;
+    list-style: none;
+    color: white;
+    top: 20px;
+}
+.first{
+   background-image: url(https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141353.jpg?w=2000);
+   width: 100%;
+   height: 500px ;
+   display: flex;  
+}
+.right ul li{
+    padding: 15px;
+}
+.heading{
+    color: white;
+    margin-top: 100px;
+}
+.heading h1 i{
+    margin-left: 325px;
+    font-size: 120px;
+}
+.heading h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.search{
+    width: 925px;
+    height: 50px;
+}
+.location i{
+    position: absolute
+}
+.fa-solid{
+    margin-top: 15px ;
+    color: lightslategray;
+    margin-left: 10px;
+}
+input::placeholder {
+    font-weight: bold;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.gallery1 {
+    margin-left: 110px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 280px;
+  }
+  .gallery2 {
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 280px;
+  }
+  .gallery3 {
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 280px;
+  }
+  
+  .gallery1:hover {
+    border: 1px solid #777;
+  }
+   .gallery2:hover {
+    border: 1px solid #777;
+  }
+   .gallery3:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery1 img {
+    width: 350px;
+    height:190px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+  }
+  .gallery2 img {
+    width: 350px;
+    height: 190px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+  }
+  .gallery3 img {
+    width: 350px;
+    height: 190px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    
+  }
+  
+  .desc {
+    padding: 35px;
+    text-align: left;
+  }
+  .desc h1{
+     font-weight: lighter;
+     font-size: 25px;
+     margin-top: -30px;
+  }
+  .desc p{
+    font-size: 18px;
+  }
+
+  .second{
+    height: 310px;
+  }
+.collections{
+height: 100px;
+}
+.col{
+  margin-top: 50px;
+  margin-left: 110px;
+}
+.col h1{
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+.col p{
+  font-size: 20px;
+}
+.ncr{
+  margin-left: 1000px;
+  margin-top: -20px;
+}
+.third{
+  height: 335px;
+  
+}
+.gallary4{
+width: 270px;
+background-image: url(https://www.elginhotels.com/wp-content/uploads/2020/02/exp-dinner.jpg);
+height: 330px;
+background-size: cover;
+color: white;
+font-size: x-small;
+position: absolute;
+margin-left: 100px;
+border-radius: 10px;
+
+}
+.gallary4 h1{
+  font-weight: lighter;
+  margin-top: 260px;
+  margin-left: 25px;
+}
+.gallary4 h2{
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+.gallary5{
+width: 270px;
+background-image: url(https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/02/Screen-Shot-2018-02-22-at-6.16.19-PM.png);
+height: 330px;
+background-size: cover;
+color: white;
+font-size: x-small;
+position: absolute;
+margin-left: 390px;
+border-radius: 10px;
+
+}
+.gallary5 h1{
+  font-weight: lighter;
+  margin-top: 260px;
+  margin-left: 25px;
+}
+.gallary5 h2{
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+.gallary6{
+width: 270px;
+background-image: url(https://b.zmtcdn.com/data/pictures/2/16885692/3f0f95795a17b60eba34b2ef04ef0330.png);
+height: 330px;
+background-size: cover;
+color: white;
+font-size: x-small;
+position: absolute;
+margin-left: 680px;
+border-radius: 10px;
+}
+.gallary6 h1{
+  font-weight: lighter;
+  margin-top: 260px;
+  margin-left: 25px;
+}
+.gallary6 h2{
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+.gallary7{
+width: 270px;
+background-image: url(https://cdn.pixabay.com/photo/2022/06/02/15/01/music-7238254_960_720.jpg);
+height: 330px;
+background-size: cover;
+color: white;
+font-size: x-small;
+position: absolute;
+margin-left: 970px;
+border-radius: 10px;
+
+}
+.gallary7 h1{
+  font-weight: lighter;
+  margin-top: 260px;
+  margin-left: 25px;
+}
+.gallary7 h2{
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+.fourth{
+  height: 350px;
+  margin-left: 90px;
+
+}
+.head h1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+.column1{
+  display: flex;
+  
+}
+.column1 h3{
+  font-weight: lighter;
+  font-size: 25px;
+  color: #777;
+}
+.column1 h4{
+  font-weight: lighter;
+  color: #777;
+}
+.a{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.b{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  
+}
+.c{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  
+  
+}
+.column2{
+  display: flex;
+  margin-top: 30px;
+}
+.column2 h3{
+  font-weight: lighter;
+  font-size: 25px;
+  color: #777;
+}
+.column2 h4{
+  font-weight: lighter;
+  color: #777;
+}
+.d{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.e{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  
+  
+}
+.f{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  
+  
+}
+.column3{
+  display: flex;
+  margin-top: 30px;
+}
+.column3 h3{
+  font-weight: lighter;
+  font-size: 25px;
+  color: #777;
+}
+.column3 h4{
+  font-weight: lighter;
+  color: #777;
+}
+.g{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.h{
+  border: 1px solid lightgray;
+  width: 350px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+
+}
+.fifth{
+  height: 500px;
+  background-color: #FFFBF7;
+  display: flex;
+  margin-top: 100px;
+}
+.mobile img{
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.app {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.app h1{
+  font-size: 50px;
+  font-weight: lighter;
+}
+.app h3{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.app h4{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.radio1{
+  margin-top: 30px;
+  }
+  input[type=radio]{
+    width: 20px;
+    height: 30px;
+  }
+  .radio2{
+    margin-left: 100px;
+  }
+  label{
+    position: absolute;
+  }
+  .email{
+    
+    margin-top: 35px;
+  }
+  .phone{
+    margin-top: 35px;
+
+  }
+  .pla{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;  
+  }
+  button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #EF4F5F;
+    color: white;
+  }
+  .download h1{
+    font-size: 15px;
+    margin-top: 25px;
+    color: #777;
+  }
+  .playstore img{
+    width: 130px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .Explore{
+    height: 500px;
+    
+  }
+  .exp h1{
+    margin-left: 110px;
+    font-weight: lighter;
+  }
+  .ex{
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  .cuisin{
+    border: 1px solid #777;
+    position: absolute;
+    width: 1100px;
+  }
+  .cuisin h1{
+   font-size: 30px;
+   font-weight: inherit;
+   padding: 10px;
+
+  }
+  .fa-angle-down{
+    margin-left: 1000px;
+    margin-top: -30px;
+    position: absolute;
+  }
+  .popular{
+    border: 1px solid #777;
+    position: absolute;
+    margin-top: 100px;
+    width: 1100px;
+
+  }
+  .popular h1{
+    font-size: 30px;
+    font-weight: inherit;
+    padding: 10px;
+
+   }
+   .top{
+    border: 1px solid #777;
+    position: absolute;
+    margin-top: 200px;
+    width: 1100px;
+    
+  }
+   .top h1{
+    font-size: 30px;
+    font-weight: inherit;
+    padding : 10px;
+
+   }
+   .deliver{
+    border: 1px solid #777;
+    position: absolute;
+    margin-top: 300px;
+    width: 1100px;
+    
+  }
+   .deliver h1{
+    font-size: 30px;
+    font-weight: inherit;
+    padding: 10px;
+   }
+   .footer{
+    height: 350px;
+    background-color: #F8F8F8;
+   }
+   .zom{
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   .country{
+    margin-left: 750px;
+   }
+   .language{
+    margin-right: 120px;
+   }
+   .imge{
+    margin-left: 90px;
+   }
+   .ul li{
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+    list-style: none;
+    letter-spacing: 3px;
+   }
+   .ol li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 5px;
+   }
+   .dl{
+    margin-top: -135px;
+   }
+   .dl li{
+    margin-left: 340px;
+    margin-top: 5px;
+    list-style: none;
+   }
+   .pa{
+    margin-top: -120px;
+   }
+   .pa li{
+    margin-left: 550px;
+    list-style: none;
+    margin-top: 5px;
+   }   
+   .ca li{
+    margin-left: 840px;
+    list-style: none;
+    margin-top: 5px;
+   }
+   .ca{
+    margin-top: -40px;
+   }
+   .links{
+    margin-left: 1070px;
+    margin-top: -90px;
+   }
+   .fa-brands{
+    margin-left: 10px;
+   }
+   .im img{
+    width: 120px;
+    margin-left: 1080px;
+    margin-top: 10px;
+   }
+   .ima img{
+    margin-left: 1080px;
+    width: 120px;
+    margin-top: 10px;
+   }
+.hr{
+  margin-top: 10px;
+  margin-left: 80px;
+  color: #777;
+}
+hr{
+  width: 1150px;
+  margin-left: 90px;
+}
+  
+
+  
+  
+  
+  
+ 
+  
+  
